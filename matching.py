@@ -118,7 +118,7 @@ for queries in qtest:
 out = {}
 for match in matching:
 	# get query image name
-	# LAST-THING-BEFORE-IMAGE-NAME -- e.g. 'query', ')' (if animal name), etc.
+	# LAST-THING-BEFORE-IMAGE-NAME -- e.g. 'query'
 	q_path = match.split('LAST-THING-BEFORE-IMAGE-NAME/')[1]
 	# get gallery image names
 	g_paths = [g.split('LAST-THING-BEFORE-IMAGE-NAME/')[1] for g in matching[match]]
