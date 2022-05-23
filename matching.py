@@ -18,16 +18,14 @@ model = load_model('PATH/MODEL-NAME.h5')
 model = keras.Model(model.layers[0].input, model.layers[-2].output)
 
 # get all images paths
-# data_dir = main folder containing all animals folders -- e.g. /home/a/animals/
+# data_dir = main folder containing all images
 def get_image_paths(data_dir):
     # init empty list for paths
     out = []
-    # loop through animal folders
-    for f in os.listdir(data_dir): # folder animal_n
-        # loop through all images in a given folder -- e.g. loop through all cat images
-        for imgs in os.listdir(data_dir + f + '/'): # for folder animal_n [img1, ..., imgn]
-            # add to list the path
-            out.append(data_dir + f + '/' + imgs)
+    # loop through folder
+    for imgs in os.listdir(data_dir):
+            # add to list the image path
+            out.append(data_dir + imgs)
     return out
 
 
