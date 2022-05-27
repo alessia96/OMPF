@@ -8,7 +8,7 @@ transf_model.py code for CNN model with transfer learning (resnet50)
 
 matching.py code for image retrieval / image similarity
 
-models_architecture.txt architectures of developed model used during the challenge
+models_architecture.txt architectures of developed models used during the challenge
 
 OMPF_pres.pdf presentation
 
