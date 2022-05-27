@@ -1,6 +1,6 @@
 # OMPF
 
-Example codes for Introduction to Machine Learning challenge 2021/2022
+Example codes for Introduction to Machine Learning challenge 2021/2022 (it was not possible to loads the trained models, you could find them on deepnote)
 
 model.py code for CNN model from scratch
 
@@ -13,5 +13,4 @@ models_architecture.txt architectures of developed model used during the challen
 OMPF_pres.pdf presentation
 
 
-# it was not possible to loads the trained models
-# you could find them on deepnote
+
