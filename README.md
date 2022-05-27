@@ -11,3 +11,7 @@ matching.py code for image retrieval / image similarity
 models_architecture.txt architectures of developed model used during the challenge
 
 OMPF_pres.pdf presentation
+
+
+# it was not possible to loads the trained models
+# you could find them on deepnote
